@@ -57,7 +57,7 @@
 }
 
 .intro{
-    padding: 30px 0;
+    padding: 66px 0;
 }
 .intro h2{
     font-family: Comfortaa, cursive;
@@ -65,6 +65,7 @@
     font-size: 30px;
     line-height: 36px;
     color: #545454;
+    margin-bottom: 40px;
 }
 .intro p{
     font-family: Comfortaa, cursive;
@@ -72,7 +73,6 @@
     font-size: 16px;
     line-height: 24px;
     color: #949494;
-    padding-top: 20px;
 }
 
 .p2{
@@ -83,7 +83,6 @@
 .process{
     position: relative;
     margin-bottom: 100px;
-    padding: 66px 0;
     font-family: Comfortaa, cursive;
     color: #636363;
 }
@@ -106,7 +105,8 @@
         right: 0%;
         width: 40%;
         text-align: left;
-        margin-left: 10px;
+        padding-left: 20px;
+        padding: 50px 0;
     }
     
     .process_unit2 .media_body{
@@ -114,7 +114,8 @@
         left: 0;
         width: 40%;
         text-align: right;
-        padding-left: 10px
+        padding-right: 20px;
+        padding: 50px 0;
     }
     .media{
         display: flex;
@@ -122,12 +123,17 @@
         align-items: center;
         padding: 40px 0;
     }
+    .media_body{
+    text-align: center;
+    padding: 50px 0;
+    border-bottom: 3px solid #dee5f5;
+}
 }
 
 
 .media_body{
     text-align: center;
-    padding: 50px 0;
+    padding: 30px 0;
     border-bottom: 3px solid #dee5f5;
 }
 
@@ -220,8 +226,13 @@
     .contact {
         text-align: center;
     }
-  }
+}
 
+@media only screen and (max-width: 600px) {
+    .intro{
+        margin: 0 15px;
+    }
+}
 
 .newsletter h5{
     font-size: 15px;
