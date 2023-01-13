@@ -127,7 +127,14 @@
     text-align: center;
     padding: 50px 0;
     border-bottom: 3px solid #dee5f5;
-}
+    }
+    .vl{
+        border-left: 3px solid #dee5f5;
+        height: 1250px;
+        position: absolute;
+        left: 50%;
+        margin: auto;
+    }
 }
 
 
@@ -185,13 +192,17 @@
     padding: 4px 10px;
 }
 
-::placeholder{
+::input-placeholder{
     font-size: 15px;
     font-style: normal;
     font-weight: 400;
     color: rgb(84, 84, 84);
     line-height: 18px;
     font-family: Gotham, sans-serif;
+}
+
+input[type=email] {
+    color: #6c6d6d;
 }
 
 .bt{
